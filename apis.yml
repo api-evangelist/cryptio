@@ -1,7 +1,27 @@
 aid: cryptio
 name: Cryptio
-description: Cryptio is a company surfaced as a portfolio company of point-nine and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Cryptio is an enterprise-grade crypto accounting, reporting, and audit platform
+  that provides an institutional system of record for digital assets. It ingests
+  and normalizes transaction data across 150+ blockchains, exchanges, custodians,
+  and DeFi protocols, then automates sub-ledger accounting, cost-basis and gain/loss
+  calculation, reconciliation, tokenization compliance, and loan management. Cryptio
+  syncs into traditional ERP and accounting systems (NetSuite, Xero, QuickBooks,
+  Dynamics 365, Oracle Fusion, SAP, Sage) and is used by 400+ institutions including
+  exchanges, banks, asset managers, and DeFi enterprises to produce audit-ready
+  financial reporting for digital assets.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cryptio.co/_next/static/media/home-preview.e6358fbf.png
 url: https://raw.githubusercontent.com/api-evangelist/cryptio/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +31,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Cryptocurrency
+- Crypto Accounting
+- Digital Assets
+- Blockchain
+- Compliance
+- Financial Reporting
+- ERP
+- FinTech
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +49,26 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/cryptio-domain-security.yml
 - type: Website
   url: https://cryptio.co
+- type: Pricing
+  url: https://www.cryptio.co/pricing
+- type: Blog
+  url: https://blog.cryptio.co
+- type: Support
+  url: https://cryptio.support.site/
+- type: Login
+  url: https://app.cryptio.co/login
+- type: SignUp
+  url: https://www.cryptio.co/demo
+- type: TermsOfService
+  url: https://www.cryptio.co/terms
+- type: PrivacyPolicy
+  url: https://www.cryptio.co/privacy
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
